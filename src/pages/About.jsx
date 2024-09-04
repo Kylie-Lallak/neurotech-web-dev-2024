@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Divisons() {
+export default function About() {
     return (
         <div>
-            Divisons
+            About
         </div>
     )
 }
