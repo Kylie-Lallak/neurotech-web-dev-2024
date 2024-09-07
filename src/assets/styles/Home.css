@@ -12,8 +12,7 @@
 /* Font sizes done in tailwind class for responsiveness */
 #home-intro-text {
     font-family: Poppins;
-    padding-top: 4rem;
-    margin-left: 4rem;
+
 }
 
 #home-title {
