@@ -14,8 +14,12 @@
 #about-header-card {
     background: linear-gradient(white, white) padding-box,
         linear-gradient(to right, #5de0e6, #0078a6) border-box;
-    border-radius: 19px;
-    border: 2px solid transparent;
+    border-radius: 3rem;
+    border: 3px solid transparent;
 
-    padding: 2rem;
+    padding: 2.4rem;
+}
+
+.headr-image {
+    height: auto;
 }
