@@ -7,7 +7,7 @@
 
 #about-background {
     background: linear-gradient(to bottom, #629ed3, white);
-    height: 200vh;
+    padding-bottom: 5rem;
 
 }
 
@@ -20,6 +20,20 @@
     padding: 2.4rem;
 }
 
-.headr-image {
-    height: auto;
+.what-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.3rem;
+
+}
+
+.what-card-title {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.what-card-img {
+    margin-right: 1rem;
+    max-height: 75px;
+
 }
