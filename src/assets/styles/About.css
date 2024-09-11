@@ -23,8 +23,13 @@
 .what-card {
     display: flex;
     align-items: center;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2.6rem;
+    transition: transform 0.2s ease-out;
 
+}
+
+.what-card:hover {
+    transform: scale(1.1);
 }
 
 .what-card-title {
@@ -33,7 +38,7 @@
 }
 
 .what-card-img {
-    margin-right: 1rem;
+    margin-right: 1.7rem;
     max-height: 75px;
 
 }

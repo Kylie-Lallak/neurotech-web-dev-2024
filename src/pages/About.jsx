@@ -30,10 +30,10 @@ export default function About() {
             </div>
 
 
+            <h1 className='text-5xl font-bold mt-10 mb-5 text-center'>What We Do</h1>
+            <div id='what-sect' className='flex flex-col justify-center items-center md:flex-row lg:gap-20'>
 
-            <div id='what-sect' className='flex flex-col justify-center items-center'>
 
-                <h1 className='text-4xl font-bold mt-10 mb-5'>What We Do</h1>
 
                 <div id='what-sect-info' className='flex flex-col justify-center items-center'>
 
@@ -79,7 +79,7 @@ export default function About() {
 
                 </div>
 
-                <img src={WhatImg} className='h-auto max-w-[380px]' />
+                <img src={WhatImg} className='h-auto max-w-[380px] lg:max-w-none' />
 
             </div>
 
