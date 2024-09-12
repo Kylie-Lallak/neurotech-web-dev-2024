@@ -232,14 +232,21 @@ export default function About() {
     <div id='medium-articles' className='mt-20'>
          <h1 className='text-4xl text-center'> <span className='font-bold'>100+</span> Medium Articles Published </h1>
 
-         <div id='medium-article-cards-container'> 
+         <div id='medium-article-cards-container'  className='mt-10 flex flex-col justify-center items-center gap-4 md:flex-row '> 
 
             <div className='medium-art-card'> 
-
                 <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
                 <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
-             
+            </div>
 
+            <div className='medium-art-card'> 
+                <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
+                <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
+            </div>
+
+            <div className='medium-art-card'> 
+                <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
+                <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
             </div>
 
          </div>
