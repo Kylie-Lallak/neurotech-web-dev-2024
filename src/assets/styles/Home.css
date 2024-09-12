@@ -24,9 +24,10 @@
 
 #home-sub-text {
     margin-top: 1rem;
-    color: black;
+    color: white;
     line-height: 1.5;
     margin-bottom: 2rem;
+    font-weight: 500;
 
 }
 
