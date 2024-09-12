@@ -84,6 +84,9 @@ box-sizing: border-box; /* Ensures padding is included inside width/height */
     padding: 1rem;
     
 }
+.bci-img{
+    width:80px;
+}
 
 .medium-art-card{
     background: linear-gradient(white, white) padding-box,

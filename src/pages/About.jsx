@@ -206,7 +206,7 @@ export default function About() {
                         <span className='font-bold text-2xl'>2nd Place</span> <br/>
                         2024 California Neurotech Conference
                     </h2>
-                    <img src={CNTC}/>
+                    <img src={CNTC} className='bci-img'/>
                 </div>
 
                 <div className='bci-award flex flex-row items-center justify-center'>
@@ -214,7 +214,7 @@ export default function About() {
                         <span className='font-bold text-[28px]'>3rd Place</span> <br/>
                         2023 International NeurotechX student club BCI 
                     </h2>
-                    <img src={NeurotechX}/>
+                    <img src={NeurotechX} className='bci-img'/>
                 </div>
 
             </div>
