@@ -92,13 +92,11 @@ export default function About() {
 
                 <h1 className='text-3xl  text-center mt-14'> <span className='font-bold'>$46,500</span> awarded for startup innovation</h1>
 
-                <div id='startup-sect' className='flex  flex-col items-center justify-center gap-4 md:flex-row'>
+        {/* Start up awards */}
+            <div id='cash-award-grid-container'className='flex items-center justify-center'>
+                <div id='startup-sect' className='mt-10 flex  flex-col items-center justify-center gap-3  md:grid md:grid-cols-2 md:gap-4'>
 
-
-
-                    <div id='startup-p1'>
-
-                            <div className='startup-card flex flex-row items-center justify-center gap-5'>
+                      <div className='startup-card flex flex-row items-center justify-center gap-5'>
 
                                 <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
                                     <h2 className='startup-card-cash'>$25k</h2>
@@ -114,16 +112,76 @@ export default function About() {
 
                                 </div>
 
-                             </div>
+                        </div>
+
+                        <div className='startup-card flex flex-row items-center justify-center gap-5'>
+
+                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                                    <h2 className='startup-card-cash'>$25k</h2>
+                                    <img src={BigBang} />
+
+                                </div>
+
+                                <div className='startup-card-p2'>
+                                    <h2 className='text-2xl'>
+                                        <span className='font-bold text-4xl'>1st Place</span> <br />
+                                        2024 Big Bang! Business competition
+                                    </h2>
+
+                                </div>
+
+                        </div>
+
+                        <div className='startup-card flex flex-row items-center justify-center gap-5'>
+
+                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                                    <h2 className='startup-card-cash'>$25k</h2>
+                                    <img src={BigBang} />
+
+                                </div>
+
+                                <div className='startup-card-p2'>
+                                    <h2 className='text-2xl'>
+                                        <span className='font-bold text-4xl'>1st Place</span> <br />
+                                        2024 Big Bang! Business competition
+                                    </h2>
+
+                                </div>
+
+                        </div>
+
+                        <div className='startup-card flex flex-row items-center justify-center gap-5'>
+
+                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                                    <h2 className='startup-card-cash'>$25k</h2>
+                                    <img src={BigBang} />
+
+                                </div>
+
+                                <div className='startup-card-p2'>
+                                    <h2 className='text-2xl'>
+                                        <span className='font-bold text-4xl'>1st Place</span> <br />
+                                        2024 Big Bang! Business competition
+                                    </h2>
+
+                                </div>
+
+                            </div>
 
 
-                    </div>
+
+                   
+
+                              
 
              
 
 
 
                 </div>
+
+             </div>
+               {/*  END Start up awards */}
 
 
             </div>
