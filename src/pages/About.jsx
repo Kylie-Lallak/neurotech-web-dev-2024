@@ -6,6 +6,7 @@ import About2 from '../assets/images/aboutIcon2.png';
 import About3 from '../assets/images/aboutIcon3.png';
 import About4 from '../assets/images/aboutIcon4.png';
 import WhatImg from '../assets/images/whatimage.png';
+import BigBang from '../assets/images/bigbang.svg';
 
 export default function About() {
     return (
@@ -30,8 +31,8 @@ export default function About() {
             </div>
 
 
-            <h1 className='text-5xl font-bold mt-10 mb-5 text-center'>What We Do</h1>
-            <div id='what-sect' className='flex flex-col justify-center items-center md:flex-row lg:gap-20'>
+            <h1 className='text-5xl font-bold mt-16 mb-7 text-center md:mt-24'>What We Do</h1>
+            <div id='what-sect' className='flex flex-col justify-center items-center md:flex-row md:gap-8 lg:gap-20'>
 
 
 
@@ -80,6 +81,50 @@ export default function About() {
                 </div>
 
                 <img src={WhatImg} className='h-auto max-w-[380px] lg:max-w-none' />
+
+            </div>
+
+
+            <h1 className='text-5xl font-bold mt-16 mb-7 text-center md:mt-24'>What We’ve Accomplished</h1>
+
+
+            <div id='acolades'>
+
+                <h1 className='text-3xl  text-center mt-14'> <span className='font-bold'>$46,500</span> awarded for startup innovation</h1>
+
+                <div id='startup-sect' className='flex  flex-col items-center justify-center gap-4 md:flex-row'>
+
+
+
+                    <div id='startup-p1'>
+
+                            <div className='startup-card flex flex-row items-center justify-center gap-5'>
+
+                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                                    <h2 className='startup-card-cash'>$25k</h2>
+                                    <img src={BigBang} />
+
+                                </div>
+
+                                <div className='startup-card-p2'>
+                                    <h2 className='text-2xl'>
+                                        <span className='font-bold text-4xl'>1st Place</span> <br />
+                                        2024 Big Bang! Business competition
+                                    </h2>
+
+                                </div>
+
+                             </div>
+
+
+                    </div>
+
+             
+
+
+
+                </div>
+
 
             </div>
 

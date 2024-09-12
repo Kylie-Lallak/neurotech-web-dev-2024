@@ -6,7 +6,7 @@
 }
 
 #about-background {
-    background: linear-gradient(to bottom, #629ed3, white);
+    background: linear-gradient(to bottom, #94c3ec, white, #c6dcef);
     padding-bottom: 5rem;
 
 }
@@ -23,7 +23,7 @@
 .what-card {
     display: flex;
     align-items: center;
-    margin-bottom: 2.6rem;
+    margin-bottom: 2rem;
     transition: transform 0.2s ease-out;
 
 }
@@ -41,4 +41,32 @@
     margin-right: 1.7rem;
     max-height: 75px;
 
+}
+
+.startup-card {
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
+    border-radius: 3rem;
+    border: 3px solid transparent;
+    width: 350px;
+    height: 150px;
+    padding-left: 1rem;
+    
+}
+
+.startup-card-cash {
+    font-weight: bold;
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+
+    background: linear-gradient(45deg, #4b42b0, #0692c9);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    /* For Webkit-based browsers */
+    -webkit-text-fill-color: transparent;
+    /* For Webkit-based browsers */
+    background-clip: text;
+    /* For other browsers that support it */
+    color: transparent;
+    /* Ensures transparency in other browsers */
 }
