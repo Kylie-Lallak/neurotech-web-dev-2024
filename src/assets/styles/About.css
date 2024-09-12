@@ -72,3 +72,15 @@ box-sizing: border-box; /* Ensures padding is included inside width/height */
     color: transparent;
     /* Ensures transparency in other browsers */
 }
+
+.bci-award{
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+
+    width:380px;
+    height: 140px;
+    padding: 1rem;
+    
+}

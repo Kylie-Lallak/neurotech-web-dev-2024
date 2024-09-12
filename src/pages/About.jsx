@@ -10,6 +10,8 @@ import BigBang from '../assets/images/bigbang.svg';
 import Plasma from '../assets/images/plasma.png';
 import BlackStone from '../assets/images/blackstone.png';
 import LittleBang from '../assets/images/littlebang.png';
+import CNTC from '../assets/images/bciImg1.png';
+import NeurotechX from '../assets/images/bciImg2.png';
 
 export default function About() {
     return (
@@ -91,7 +93,7 @@ export default function About() {
             <h1 className='text-5xl font-bold mt-16 mb-12 text-center md:mt-24'>What We’ve Accomplished</h1>
 
 
-            <div id='acolades'>
+        
 
                 <h1 className='text-4xl  text-center mt-7'> <span className='font-bold'>$46,500</span> awarded for startup innovation</h1>
 
@@ -191,7 +193,40 @@ export default function About() {
      {/*    END Start up awards   */}
 
 
+    {/*   BCI awards    */}
+
+        <div id='bci-awards' className='mt-20 '>
+            <h1 className='text-4xl text-center'> <span className='font-bold'>Over 30</span> BCI  Projects  Built </h1>
+
+            <div id='bci-award-card-container' className=' mt-10 gap-5 flex flex-col justify-center items-center md:flex-row '>
+
+
+                <div className='bci-award flex flex-row items-center justify-center'>
+                    <h2 className='text-xl'>
+                        <span className='font-bold text-2xl'>2nd Place</span> <br/>
+                        2024 California Neurotech Conference
+                    </h2>
+                    <img src={CNTC}/>
+                </div>
+
+                <div className='bci-award flex flex-row items-center justify-center'>
+                    <h2 className='text-[18px]'>
+                        <span className='font-bold text-[28px]'>3rd Place</span> <br/>
+                        2023 International NeurotechX student club BCI 
+                    </h2>
+                    <img src={NeurotechX}/>
+                </div>
+
             </div>
+
+    
+        </div>
+
+
+    {/*  END OF BCI awards    */}
+
+
+           
 
         </div>
     )
