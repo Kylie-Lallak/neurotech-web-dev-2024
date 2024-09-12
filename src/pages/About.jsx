@@ -19,7 +19,7 @@ export default function About() {
         <div id='about-background'>
 
             <div id='about-header' className='flex flex-col items-center '>
-                <h1 className='text-6xl font-bold mb-10 mt-10 sm:text-red-800 md:text-yellow-600 lg:text-green-700'>About Us</h1>
+                <h1 className='text-6xl lg:text-7xl font-bold mb-10 mt-20'>About Us</h1>
 
                 <div id='about-header-card' className='mx-10 sm:w-auto sm:max-w-[500px] md:flex md:flex-row md:justify-center md:items-center md:max-w-[800px] lg:max-w-[1200px]'>
                     <div id='about-header-card-text'>
@@ -90,7 +90,7 @@ export default function About() {
             </div>
 
 
-            <h1 className='text-5xl font-bold mt-16 mb-12 text-center md:mt-24'>What We’ve Accomplished</h1>
+            <h1 className='text-5xl font-bold mt-24 mb-20 text-center '>What We’ve Accomplished</h1>
 
 
         
