@@ -19,6 +19,8 @@ export default function Home() {
 
       <img className='max-w-sm mt-16 pb-6 sm:max-w-md  md:mr-11 md:pt-12 md:max-w-62 lg:max-w-none' src={HomeImage} />
 
+      
+
     </div>
   )
 }
