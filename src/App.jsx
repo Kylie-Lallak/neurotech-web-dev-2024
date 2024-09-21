@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import JoinUs from './pages/JoinUs';
 import Projects from './pages/Projects';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
