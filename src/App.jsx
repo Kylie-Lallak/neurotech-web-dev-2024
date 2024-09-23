@@ -8,6 +8,7 @@ import JoinUs from './pages/JoinUs';
 import Projects from './pages/Projects';
 
 
+
 function App() {
 
 
@@ -20,6 +21,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/joinus' element={<JoinUs />} />
         <Route path='/projects' element={<Projects />} />
+ 
+
 
 
       </Routes>
