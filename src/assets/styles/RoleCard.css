@@ -1,0 +1,26 @@
+.blue-text{
+    color: #3971d2;
+}
+#open-role-card{
+  
+    width: 400px;
+    height: 275px;
+    padding: 1.5rem;
+
+    background: linear-gradient(#f4faff, #f4faff) padding-box,
+    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+}
+
+.role-apply-btn{
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    padding: 0.5rem;
+
+
+}

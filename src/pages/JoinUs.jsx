@@ -1,6 +1,8 @@
 import React from 'react'
 import '../assets/styles/JoinUs.css'
 import JoinUsImg from '../../src/assets/images/joinuspic.png'
+import RoleCard from '../components/RoleCard'
+import RolesData from '../components/RolesData'
 
 export default function JoinUs() {
     return (
@@ -14,6 +16,23 @@ export default function JoinUs() {
 
             </div>
             <img src={JoinUsImg} className='max-w-[300px] md:max-w-[425px] lg:max-w-[500px] ml-10 mt-4 '/>
+
+
+        </div>
+
+        <h1 className='text-center text-3xl md:text-5xl font-bold mt-20'>See our open roles</h1>
+
+        <div id='open-roles-container'>
+            
+            {RolesData.map((card, i) => (
+                <RoleCard role={card.role} divison={card.divison} desc={card.desc} link={card.link} />
+            ))
+
+            }
+    
+            
+            
+
 
 
         </div>
