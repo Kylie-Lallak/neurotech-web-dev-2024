@@ -4,7 +4,7 @@ import Arrow from '../../src/assets/images/arrow.png'
 
 export default function RoleCard({role, divison, desc, link}) {
   return (
-<div id='open-role-card'>
+<div id='open-role-card' className='shadow-xl'>
 
     <h2 className='blue-text font-semibold text-2xl mb-3'>{role}</h2>
     <h3 className='font-medium'>{divison}</h3>

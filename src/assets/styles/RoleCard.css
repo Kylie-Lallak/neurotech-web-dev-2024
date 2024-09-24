@@ -3,9 +3,9 @@
 }
 #open-role-card{
   
-    width: 400px;
+    width: 340px;
     height: 275px;
-    padding: 1.5rem;
+    padding: 1rem;
 
     background: linear-gradient(#f4faff, #f4faff) padding-box,
     linear-gradient(to right, #5de0e6, #0078a6) border-box;
@@ -21,6 +21,12 @@
     width: 150px;
     height: 50px;
     padding: 0.5rem;
+    transition: transform 0.5s ease;
 
+
+}
+
+.role-apply-btn:hover{
+    transform: scale(1.2);
 
 }
