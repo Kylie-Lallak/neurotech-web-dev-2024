@@ -15,7 +15,7 @@ export default function JoinUs() {
                 <h1 className='blue-text'>TBD</h1>
 
             </div>
-            <img src={JoinUsImg} className='max-w-[250px] md:max-w-[425px] lg:max-w-[500px] ml-10 mt-4 '/>
+            <img src={JoinUsImg} className='max-w-[250px] md:max-w-[400px] lg:max-w-[450px] ml-10 mt-4 '/>
 
 
         </div>
