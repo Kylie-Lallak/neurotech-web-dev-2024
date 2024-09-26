@@ -22,7 +22,10 @@ export default function Navbar() {
             </a>
           </div>
           {/* pages */}
-          <div id="bluecolor" className="items-center hidden lg:flex gap-x-20">
+          <div
+            id="bluecolor"
+            className="items-center justify-end ml-auto font-[410] hidden text-base lg:flex gap-20"
+          >
             <a href="../" className="">
               Home
             </a>
@@ -33,7 +36,7 @@ export default function Navbar() {
           <div className="flex gap-4">
             <div className="lg:hidden flex items-center">
               <button onClick={() => setSideMenu(!sideMenu)}>
-                <img src={ThreeBars} alt="nav button" height="30" width="30" />
+                <img src={ThreeBars} alt="nav button" height="27" width="27" />
               </button>
             </div>
           </div>
@@ -47,7 +50,7 @@ export default function Navbar() {
         }`}
       >
         <div className="px-8 my-3">
-          <div className="flex flex-col gap-8 font-bold tracking-wider items-center text-lg">
+          <div className="flex flex-col gap-8 font-[450] tracking-wider items-center text-lg">
             <a href="../" className="">
               Home
             </a>
