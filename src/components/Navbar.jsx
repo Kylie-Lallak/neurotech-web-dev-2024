@@ -8,9 +8,9 @@ export default function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
   return (
     <div>
-      <div className="max-w-7xl mx-auto">
-        <div className="flex mx-auto justify-between w-5/6 ">
-          <div className="flex items-center gap-16 my-2">
+      <div className="max-w-8xl mx-auto">
+        <div className="flex mx-auto justify-between w-11/12">
+          <div className="flex items-center my-2">
             {/* logo */}
             <a
               href="/"
@@ -22,10 +22,7 @@ export default function Navbar() {
             </a>
           </div>
           {/* pages */}
-          <div
-            id="bluecolor"
-            className="items-center hidden lg:flex gap-20 my-4"
-          >
+          <div id="bluecolor" className="items-center hidden lg:flex gap-x-20">
             <a href="../" className="">
               Home
             </a>
@@ -33,7 +30,7 @@ export default function Navbar() {
             <a href="../joinus">Join Us</a>
           </div>
           {/* mobile */}
-          <div className="flex gap-6">
+          <div className="flex gap-4">
             <div className="lg:hidden flex items-center">
               <button onClick={() => setSideMenu(!sideMenu)}>
                 <img src={ThreeBars} alt="nav button" height="30" width="30" />
@@ -45,12 +42,12 @@ export default function Navbar() {
       {/* mobile navigation */}
       <div
         id="bluecolor"
-        className={`fixed z-40 w-full bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-12 origin-top duration-700 ${
-          !sideMenu ? "h-0" : "h-full"
+        className={`fixed z-40 w-full opacity-95 bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-16 origin-top duration-700 ${
+          !sideMenu ? "h-0" : "h-50"
         }`}
       >
-        <div className="px-8">
-          <div className="flex flex-col gap-8 font-bold tracking-wider">
+        <div className="px-8 my-3">
+          <div className="flex flex-col gap-8 font-bold tracking-wider items-center text-lg">
             <a href="../" className="">
               Home
             </a>
