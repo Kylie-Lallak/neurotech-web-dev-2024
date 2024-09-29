@@ -22,7 +22,7 @@ export default function JoinUs() {
 
             <h1 className='text-center text-3xl md:text-5xl font-bold mt-32'>See our open roles</h1>
 
-            <div className=' md:flex md:items-center md:justify-center' id='join-card-sect'>
+            <div className='flex flex-col items-center md:flex md:items-center md:justify-center' id='join-card-sect'>
                 <div id='open-roles-container' className='grid flex-col items-center gap-4 mt-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-5 '>
                     {/*  this puts the data in RolesData.js into card compontes (RoleCard.jsx)*/}
                     {RolesData.map((card, i) => (
