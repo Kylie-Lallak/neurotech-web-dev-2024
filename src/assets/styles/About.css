@@ -6,7 +6,7 @@
 }
 
 #about-background {
-    background: linear-gradient(to bottom, #94c3ec, white,white, #c6dcef);
+    background: linear-gradient(to bottom, #94c3ec, white, white, #c6dcef);
     padding-bottom: 5rem;
 
 }
@@ -45,15 +45,17 @@
 
 .startup-card {
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #5de0e6, #0078a6) border-box;
-border-radius: 2rem;
-border: 3px solid transparent;
-width: 400px;
-height: 120px;
-padding: 20px; /* Adjust padding as needed */
-box-sizing: border-box; /* Ensures padding is included inside width/height */
-  
-    
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
+    border-radius: 2rem;
+    border: 3px solid transparent;
+    width: 400px;
+    height: 120px;
+    padding: 20px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+    /* Ensures padding is included inside width/height */
+
+
 }
 
 .startup-card-cash {
@@ -73,28 +75,34 @@ box-sizing: border-box; /* Ensures padding is included inside width/height */
     /* Ensures transparency in other browsers */
 }
 
-.bci-award{
+.bci-award {
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
     border-radius: 2rem;
     border: 3px solid transparent;
 
-    width:380px;
+    width: 380px;
     height: 140px;
     padding: 1rem;
-    
-}
-.bci-img{
-    width:80px;
+
 }
 
-.medium-art-card{
+.bci-img {
+    width: 80px;
+}
+
+.medium-art-card {
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
     border-radius: 2rem;
     border: 3px solid transparent;
 
-    width:350px;
-    padding:1rem;
+    width: 350px;
+    padding: 1rem;
 
+}
+
+.medium-art-card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }

@@ -93,173 +93,179 @@ export default function About() {
             <h1 className='text-5xl font-bold mt-24 mb-20 text-center '>What We’ve Accomplished</h1>
 
 
-        
 
-                <h1 className='text-4xl  text-center mt-7'> <span className='font-bold'>$46,500</span> awarded for startup innovation</h1>
 
- {/*   Start up awards    */}
-            <div id='cash-award-grid-container'className='flex items-center justify-center'>
+            <h1 className='text-4xl  text-center mt-7'> <span className='font-bold'>$46,500</span> awarded for startup innovation</h1>
+
+            {/*   Start up awards    */}
+            <div id='cash-award-grid-container' className='flex items-center justify-center'>
                 <div id='startup-sect' className='mt-10 flex  flex-col items-center justify-center gap-3  md:grid md:grid-cols-2 md:gap-4'>
 
 
 
-                          <div className='startup-card flex flex-row items-center justify-center gap-5'>
+                    <div className='startup-card flex flex-row items-center justify-center gap-5'>
 
-                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
-                                    <h2 className='startup-card-cash -mt-3'>$25k</h2>
-                                    <img src={BigBang}  className='-mt-4'/>
-
-                                </div>
-
-                                <div className='startup-card-p2'>
-                                    <h2 className='text-xl '>
-                                        <span className='font-bold text-4xl'>1st Place</span> <br />
-                                        2024 Big Bang! Business competition
-                                    </h2>
-
-                                </div>
+                        <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                            <h2 className='startup-card-cash -mt-3'>$25k</h2>
+                            <img src={BigBang} className='-mt-4' />
 
                         </div>
 
-                 
-
-                          <div className='startup-card flex flex-row items-center justify-center gap-5'>
-
-                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
-                                    <h2 className='startup-card-cash '>$10k</h2>
-                                    <img src={Plasma} className='mb-4' />
-
-                                </div>
-
-                                <div className='startup-card-p2'>
-                                    <h2 className='text-xl '>
-                                        <span className='font-bold text-4xl'>1st Place</span> <br />
-                                        2024 Plasma UC Davis Demo Day
-                                    </h2>
-
-                                </div>
+                        <div className='startup-card-p2'>
+                            <h2 className='text-xl '>
+                                <span className='font-bold text-4xl'>1st Place</span> <br />
+                                2024 Big Bang! Business competition
+                            </h2>
 
                         </div>
 
-                         <div className='startup-card flex flex-row items-center justify-center gap-5'>
+                    </div>
 
-                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
-                                    <h2 className='startup-card-cash '>$10.5k</h2>
-                                    <img src={BlackStone} className='mb-5' />
 
-                                </div>
 
-                                <div className='startup-card-p2'>
-                                    <h2 className='text-xl '>
-                                        <span className='font-bold text-4xl'>1st Place</span> <br />
-                                        2023 Blackstone Launchpad
-                                    </h2>
+                    <div className='startup-card flex flex-row items-center justify-center gap-5'>
 
-                                </div>
+                        <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                            <h2 className='startup-card-cash '>$10k</h2>
+                            <img src={Plasma} className='mb-4' />
 
                         </div>
 
-
-                              <div className='startup-card flex flex-row items-center justify-center gap-5'>
-
-                                <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
-                                    <h2 className='startup-card-cash -mb-4'>$1k</h2>
-                                    <img src={LittleBang} className='' />
-
-                                </div>
-
-                                <div className='startup-card-p2'>
-                                    <h2 className='text-xl '>
-                                        <span className='font-bold text-4xl'>Top Award</span> <br />
-                                        2024 Little Bang Poster and Pitch
-                                    </h2>
-
-                                </div>
+                        <div className='startup-card-p2'>
+                            <h2 className='text-xl '>
+                                <span className='font-bold text-4xl'>1st Place</span> <br />
+                                2024 Plasma UC Davis Demo Day
+                            </h2>
 
                         </div>
 
-                  
+                    </div>
 
-                     
-  
+                    <div className='startup-card flex flex-row items-center justify-center gap-5'>
 
-             
+                        <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                            <h2 className='startup-card-cash '>$10.5k</h2>
+                            <img src={BlackStone} className='mb-5' />
+
+                        </div>
+
+                        <div className='startup-card-p2'>
+                            <h2 className='text-xl '>
+                                <span className='font-bold text-4xl'>1st Place</span> <br />
+                                2023 Blackstone Launchpad
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className='startup-card flex flex-row items-center justify-center gap-5'>
+
+                        <div className='startup-card-p1 flex flex-col items-center justify-center gap-3'>
+                            <h2 className='startup-card-cash -mb-4'>$1k</h2>
+                            <img src={LittleBang} className='' />
+
+                        </div>
+
+                        <div className='startup-card-p2'>
+                            <h2 className='text-xl '>
+                                <span className='font-bold text-4xl'>Top Award</span> <br />
+                                2024 Little Bang Poster and Pitch
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
 
 
 
                 </div>
 
-             </div>
-     {/*    END Start up awards   */}
+            </div>
+            {/*    END Start up awards   */}
 
 
-    {/*   BCI awards    */}
+            {/*   BCI awards    */}
 
-        <div id='bci-awards' className='mt-20 '>
-            <h1 className='text-4xl text-center'> <span className='font-bold'>Over 30</span> BCI  Projects  Built </h1>
+            <div id='bci-awards' className='mt-20 '>
+                <h1 className='text-4xl text-center'> <span className='font-bold'>Over 30</span> BCI  Projects  Built </h1>
 
-            <div id='bci-award-card-container' className=' mt-10 gap-5 flex flex-col justify-center items-center md:flex-row '>
+                <div id='bci-award-card-container' className=' mt-10 gap-5 flex flex-col justify-center items-center md:flex-row '>
 
 
-                <div className='bci-award flex flex-row items-center justify-center'>
-                    <h2 className='text-xl'>
-                        <span className='font-bold text-2xl'>2nd Place</span> <br/>
-                        2024 California Neurotech Conference
-                    </h2>
-                    <img src={CNTC} className='bci-img'/>
+                    <div className='bci-award flex flex-row items-center justify-center'>
+                        <h2 className='text-xl'>
+                            <span className='font-bold text-2xl'>2nd Place</span> <br />
+                            2024 California Neurotech Conference
+                        </h2>
+                        <img src={CNTC} className='bci-img' />
+                    </div>
+
+                    <div className='bci-award flex flex-row items-center justify-center'>
+                        <h2 className='text-[18px]'>
+                            <span className='font-bold text-[28px]'>3rd Place</span> <br />
+                            2023 International NeurotechX student club BCI
+                        </h2>
+                        <img src={NeurotechX} className='bci-img' />
+                    </div>
+
                 </div>
 
-                <div className='bci-award flex flex-row items-center justify-center'>
-                    <h2 className='text-[18px]'>
-                        <span className='font-bold text-[28px]'>3rd Place</span> <br/>
-                        2023 International NeurotechX student club BCI 
-                    </h2>
-                    <img src={NeurotechX} className='bci-img'/>
+
+            </div>
+
+
+            {/*  END OF BCI awards    */}
+
+
+
+            {/*  Medium article section    */}
+
+            <div id='medium-articles' className='mt-20'>
+                <h1 className='text-4xl text-center'> <span className='font-bold'>100+</span> Medium Articles Published </h1>
+
+                <div id='medium-article-cards-container' className='mt-10 flex flex-col justify-center items-center gap-4 md:flex-row '>
+
+                    <a href='https://medium.com/neurotech-davis/music-therapy-alzheimers-7b1fe5fe031b' target='_blank'>
+                        <div className='medium-art-card'>
+                            <h2 className='font-bold text-xl'>Music Therpy & Alzheimer's</h2>
+                            <p className='text-sm w-full text-gray-700'> Explore the prevalance of music therapy to treat neurological conditions...</p>
+                        </div>
+                    </a>
+
+                    <a href='https://medium.com/neurotech-davis/neurons-mp3-d229c83d0d42' target='_blank'>
+                        <div className='medium-art-card'>
+                            <h2 className='font-bold text-xl'>Neurons.mp3</h2>
+                            <p className='text-sm w-full text-gray-700'> What goes on in the brain when we listen to music, and what can we learn...</p>
+                        </div>
+                    </a>
+
+                    <a href='https://medium.com/neurotech-davis/beyond-the-brain-cognition-across-disciplines-8c8d63473588' target='_blank'>
+                        <div className='medium-art-card'>
+                            <h2 className='font-bold text-xl'> Cognition Across Disiplines</h2>
+                            <p className='text-sm w-full text-gray-700'> Scholars from various cognitive discipines came together to teach learn and discuss...</p>
+                        </div>
+                    </a>
+
                 </div>
 
+
+
             </div>
 
-    
-        </div>
 
-
-    {/*  END OF BCI awards    */}
+            {/* END OF  Medium article section    */}
 
 
 
-    {/*  Medium article section    */}
-
-    <div id='medium-articles' className='mt-20'>
-         <h1 className='text-4xl text-center'> <span className='font-bold'>100+</span> Medium Articles Published </h1>
-
-         <div id='medium-article-cards-container'  className='mt-10 flex flex-col justify-center items-center gap-4 md:flex-row '> 
-
-            <div className='medium-art-card'> 
-                <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
-                <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
-            </div>
-
-            <div className='medium-art-card'> 
-                <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
-                <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
-            </div>
-
-            <div className='medium-art-card'> 
-                <h2 className='font-bold text-xl'>How Neuroscince is great</h2>
-                <p className='text-sm w-full text-gray-700'> A great desicription of the article A great desicof the article A great A great desicrip.</p>
-            </div>
-
-         </div>
-        
-
-
-    </div>
-
-
-     {/* END OF  Medium article section    */}
-
-
-           
 
         </div>
     )
