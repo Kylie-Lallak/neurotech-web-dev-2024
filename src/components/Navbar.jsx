@@ -45,9 +45,8 @@ export default function Navbar() {
       {/* mobile navigation */}
       <div
         id="bluecolor"
-        className={`fixed z-40 w-full opacity-95 bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-16 origin-top duration-700 ${
-          !sideMenu ? "h-0" : "h-50"
-        }`}
+        className={`fixed z-40 w-full opacity-95 bg-gray-100 overflow-hidden absolute flex flex-col lg:hidden gap-16 origin-top duration-700 ${!sideMenu ? "h-0" : "h-50"
+          }`}
       >
         <div className="px-8 my-3">
           <div className="flex flex-col gap-8 font-[450] tracking-wider items-center text-lg">
