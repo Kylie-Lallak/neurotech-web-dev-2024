@@ -1,21 +1,22 @@
-.blue-text{
+.blue-text {
     color: #3971d2;
 }
-#open-role-card{
-  
-    width: 340px;
+
+#open-role-card {
+
+    width: 370px;
     height: 275px;
     padding: 1rem;
 
     background: linear-gradient(#f4faff, #f4faff) padding-box,
-    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
     border-radius: 2rem;
     border: 3px solid transparent;
 }
 
-.role-apply-btn{
+.role-apply-btn {
     background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #5de0e6, #0078a6) border-box;
+        linear-gradient(to right, #5de0e6, #0078a6) border-box;
     border-radius: 2rem;
     border: 2px solid transparent;
     width: 150px;
@@ -26,7 +27,7 @@
 
 }
 
-.role-apply-btn:hover{
+.role-apply-btn:hover {
     transform: scale(1.2);
 
 }

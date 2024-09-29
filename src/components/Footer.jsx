@@ -65,7 +65,7 @@ export default function Footer() {
 
 
       </div>
-      <h3 className='text-center  text-gray-400 pb-10 pt-4'>Made with 💙 by Neurotech</h3>
+      <h3 className='text-center text-gray-400 pb-10 pt-4'>Made with 💙 by Neurotech</h3>
 
     </>
   )
