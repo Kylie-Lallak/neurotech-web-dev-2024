@@ -15,13 +15,13 @@ const RolesData = [
     {
         role: 'Publications Member',
         divison: 'Education Publication',
-        desc: 'Actively contribute to a variety of publications in the field of neuroscience by sharing research findings, insights, and expert analyses.',
+        desc: 'Actively contribute to a variety of publications in the field of neuroscience by sharing research findings, insights, and expert analyses',
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSefqbi4UvfwIPQlHE-yYHSpmjxURGGOjnTxAFdv0mRziRE_Fw/viewform'
     },
     {
         role: 'Entrepreneurship Member',
         divison: 'Entrepreneurship Divison',
-        desc: 'Design and develop BCIs linking the brain to digital systems, from wearable devices to software',
+        desc: 'Engage in neurotech startups, we offer a platform to develop ideas and create solutions, compete in startup competitions ',
         link: 'https://forms.gle/kuzH13rgDudbQtkVA'
     }
 ]
