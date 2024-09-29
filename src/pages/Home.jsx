@@ -2,7 +2,7 @@ import React from 'react'
 import '../assets/styles/Home.css'
 
 import Arrow from '../assets/images/arrow.png'
-import HomeImage from '../assets/images/homeImage.png'
+
 import Home2 from '../assets/images/home2.png'
 
 export default function Home() {

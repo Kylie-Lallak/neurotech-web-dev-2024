@@ -5,7 +5,7 @@ import About1 from '../assets/images/aboutIcon1.png';
 import About2 from '../assets/images/aboutIcon2.png';
 import About3 from '../assets/images/aboutIcon3.png';
 import About4 from '../assets/images/aboutIcon4.png';
-import WhatImg from '../assets/images/whatimage.png';
+import AboutImg from '../assets/images/aboutImg.png';
 import BigBang from '../assets/images/bigbang.svg';
 import Plasma from '../assets/images/plasma.png';
 import BlackStone from '../assets/images/blackstone.png';
@@ -85,7 +85,7 @@ export default function About() {
 
                 </div>
 
-                <img src={WhatImg} className='h-auto max-w-[380px] lg:max-w-none' />
+                <img src={AboutImg} className='h-auto max-w-[380px] lg:max-w-[500px]' />
 
             </div>
 
