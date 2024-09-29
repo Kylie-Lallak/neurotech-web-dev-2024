@@ -3,6 +3,7 @@ import '../assets/styles/Home.css'
 
 import Arrow from '../assets/images/arrow.png'
 import HomeImage from '../assets/images/homeImage.png'
+import Home2 from '../assets/images/home2.png'
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
 
       </div>
 
-      <img className='max-w-sm mt-16 pb-6 sm:max-w-md  md:mr-11 md:pt-12 md:max-w-62 lg:max-w-none' src={HomeImage} />
+      <img className='max-w-sm mt-16 pb-6 sm:max-w-md  md:mr-11 md:pt-12 md:max-w-62 lg:mr-36 lg:w-[550px] lg:max-w-none' src={Home2} />
 
-      
+
 
     </div>
   )

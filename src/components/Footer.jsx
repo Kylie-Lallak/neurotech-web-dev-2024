@@ -13,7 +13,7 @@ export default function Footer() {
 
 
       <div id='footer ' className='flex pt-10 pl-10  pb-2'>
-        <img src={Logo} className='w-[50px] h-[50px] mr-7' />
+        <img src={Logo} className='w-[60px] h-[60px] mr-7' />
         <div id='sections' className='flex flex-wrap  items-start gap-16 justify-between w-[100%] mr-10'>
 
           <div id='site'>
