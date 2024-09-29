@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div id='socials'>
-            <h2 className='blue-text font-bold text-lg'>Socail</h2>
+            <h2 className='blue-text font-bold text-lg'>Social</h2>
             <ul className='text-gray-500 '>
               <a href='https://www.linkedin.com/company/neurotech-davis/posts/?feedView=all' className='footer-link '> <li className='flex items-center gap-2'> <img src={LinkedIn} className='w-[20px]' /> LinkedIn</li> </a >
               <a href='https://linktr.ee/neurotechdavis' className='footer-link'> <li className='flex items-center  gap-2'> <img src={LinkTree} className='w-[25px]' /> Linktree</li> </a>

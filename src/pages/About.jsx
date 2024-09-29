@@ -85,7 +85,7 @@ export default function About() {
 
                 </div>
 
-                <img src={AboutImg} className='h-auto max-w-[380px] lg:max-w-[500px]' />
+                <img src={AboutImg} className='h-auto max-w-[380px] lg:max-w-[500px]' alt='a grid of 3 photos of people posing in frount of posters' />
 
             </div>
 
@@ -232,11 +232,11 @@ export default function About() {
             <div id='medium-articles' className='mt-20'>
                 <h1 className='text-4xl text-center'> <span className='font-bold'>100+</span> Medium Articles Published </h1>
 
-                <div id='medium-article-cards-container' className='mt-10 flex flex-col justify-center items-center gap-4 md:flex-row '>
+                <div id='medium-article-cards-container' className='mt-10 flex flex-col justify-center items-center gap-4 lg:flex-row '>
 
                     <a href='https://medium.com/neurotech-davis/music-therapy-alzheimers-7b1fe5fe031b' target='_blank'>
                         <div className='medium-art-card'>
-                            <h2 className='font-bold text-xl'>Music Therpy & Alzheimer's</h2>
+                            <h2 className='font-bold text-xl'>Music Therapy & Alzheimer's</h2>
                             <p className='text-sm w-full text-gray-700'> Explore the prevalance of music therapy to treat neurological conditions...</p>
                         </div>
                     </a>
