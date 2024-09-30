@@ -38,7 +38,7 @@ export default function About() {
 
           <img
             src={HeaderImage}
-            className=" w-auto rounded-lg h-auto mx-auto md:min-w-[350px] md:ml-4 lg:max-w-[500px]"
+            className=" w-auto rounded-3xl h-auto mx-auto md:min-w-[350px] md:ml-4 lg:max-w-[500px]"
           />
         </div>
       </div>
